@@ -1,23 +1,28 @@
 import React from 'react'
 require('./App.css')
 
+import { Square } from './Square.js'
+
 const App = () => {
+  const board = [
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    '',
+    ''
+  ]
   return (
     <div>
       <h1>Tic Tac Toe!</h1>
       <div className='board'>
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
-        <div className='square' />
+        {board.map((square, index) => <Square key={index} />)}
       </div>
     </div>
   )
