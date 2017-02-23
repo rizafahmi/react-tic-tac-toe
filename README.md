@@ -1,3 +1,9 @@
+# React Tic Tac Toe
+
+Tic tac toe in React. Is not finished game. Just for live code purposes
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
