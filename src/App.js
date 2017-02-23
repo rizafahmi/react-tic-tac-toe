@@ -6,7 +6,7 @@ class App extends React.Component {
     console.log(index)
   }
   render () {
-    const board = [ '', '', '', '', '', '', '', '', '', '', '', '' ]
+    const board = [ '', '', '', '', '', '', '', '', '' ]
 
     return (
       <div>
